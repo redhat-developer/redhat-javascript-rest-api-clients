@@ -1,0 +1,35 @@
+{
+  "name": "@redhat-developer/rhsm-client",
+  "version": "0.0.2",
+  "description": "Type safe client for Red Hat Subscription Manager (RHSM) REST API",
+  "main": "./dist/index.js",
+  "scripts": {
+    "generate": "openapi -c axios -i ./swagger/rhsm-2-swagger.yml -o ./src-generated --indent 2 --name RhsmClient",
+    "compile": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat-developer/redhat-javascript-rest-clients.git"
+  },
+  "keywords": [
+    "REST",
+    "typescript",
+    "redhat",
+    "subscription"
+  ],
+  "author": "Denis Golovin (dgolovin@redhat.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/redhat-developer/redhat-javascript-rest-clients/issues"
+  },
+  "homepage": "https://github.com/redhat-developer/redhat-javascript-rest-clients#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "openapi-typescript-codegen": "^0.27.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "form-data": "^4.0.0"
+  }
+}
