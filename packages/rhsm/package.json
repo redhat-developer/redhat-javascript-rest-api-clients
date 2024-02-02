@@ -4,7 +4,7 @@
   "description": "Type safe client for Red Hat Subscription Manager (RHSM) REST API",
   "main": "./dist/index.js",
   "scripts": {
-    "generate": "openapi -c axios -i ./swagger/rhsm-2-swagger.yml -o ./src-generated --indent 2 --name RhsmClient",
+    "generate": "openapi -c axios -i ./swagger/rhsm-2-swagger.yml -o ./src-generated --indent 2 --name SubscriptionManagerClient",
     "compile": "tsc -d"
   },
   "repository": {
