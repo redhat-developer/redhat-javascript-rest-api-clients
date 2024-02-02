@@ -1,4 +1,4 @@
-# cra
+# Red Hat Subscription Manager (RHSM)
 
 [`rhsm-client`](https://github.com/redhat-developer/redhat-javascript-api-rest-api-clients/packages/rhsm#readme) is a Node.js
 library that provides the way to work with Red Hat Product Subscriptions.
