@@ -3,8 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type Result = {
-    healthy?: boolean;
-    name?: string;
-    parameters?: any;
+  healthy?: boolean;
+  name?: string;
+  parameters?: any;
 };
 

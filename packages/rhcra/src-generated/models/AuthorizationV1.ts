@@ -3,6 +3,6 @@
 /* tslint:disable */
 /* eslint-disable */
 export type AuthorizationV1 = {
-    access?: Record<string, string>;
+  access?: Record<string, string>;
 };
 

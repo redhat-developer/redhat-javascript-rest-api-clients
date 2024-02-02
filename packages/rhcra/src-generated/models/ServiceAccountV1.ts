@@ -4,13 +4,13 @@
 /* eslint-disable */
 import type { CredentialsV1 } from './CredentialsV1';
 export type ServiceAccountV1 = {
-    created?: string;
-    createdBy?: string;
-    credentials?: CredentialsV1;
-    description?: string;
-    lastUpdatedBy?: string;
-    name?: string;
-    redHatAccountId?: string;
-    tokenDate?: string;
+  created?: string;
+  createdBy?: string;
+  credentials?: CredentialsV1;
+  description?: string;
+  lastUpdatedBy?: string;
+  name?: string;
+  redHatAccountId?: string;
+  tokenDate?: string;
 };
 

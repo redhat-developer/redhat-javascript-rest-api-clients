@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ResponseEntity = {
-    body?: any;
-    status?: any;
+  body?: any;
+  status?: any;
 };
 

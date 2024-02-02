@@ -3,8 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CreateServiceAccountV1 = {
-    description?: string;
-    name?: string;
-    redHatAccountId?: string;
+  description?: string;
+  name?: string;
+  redHatAccountId?: string;
 };
 

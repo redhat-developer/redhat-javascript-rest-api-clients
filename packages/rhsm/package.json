@@ -1,6 +1,6 @@
 {
   "name": "@redhat-developer/rhsm-client",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Type safe client for Red Hat Subscription Manager (RHSM) REST API",
   "main": "./dist/index.js",
   "scripts": {

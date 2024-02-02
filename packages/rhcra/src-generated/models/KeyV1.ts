@@ -3,8 +3,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export type KeyV1 = {
-    algorithm?: string;
-    encoded?: string;
-    format?: string;
+  algorithm?: string;
+  encoded?: string;
+  format?: string;
 };
 

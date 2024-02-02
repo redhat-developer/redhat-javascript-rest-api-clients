@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CreatePartnerServiceAccountV1 = {
-    description?: string;
-    name?: string;
+  description?: string;
+  name?: string;
 };
 

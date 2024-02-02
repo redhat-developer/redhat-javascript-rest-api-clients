@@ -4,6 +4,6 @@
 /* eslint-disable */
 import type { CredentialsV1 } from './CredentialsV1';
 export type GetAuthorizationV1 = {
-    credentials?: CredentialsV1;
+  credentials?: CredentialsV1;
 };
 

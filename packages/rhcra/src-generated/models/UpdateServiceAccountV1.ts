@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type UpdateServiceAccountV1 = {
-    description?: string;
-    regenerateToken?: boolean;
+  description?: string;
+  regenerateToken?: boolean;
 };
 

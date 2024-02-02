@@ -1,5 +1,5 @@
 {
-  "name": "@redhat-developer/cra-client",
+  "name": "@redhat-developer/rhcra-client",
   "version": "0.0.1",
   "description": "Type safe client for Red Hat Container Registry Authorizer (CRA) REST API",
   "main": "./dist/index.js",

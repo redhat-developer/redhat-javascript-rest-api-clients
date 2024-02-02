@@ -3,9 +3,9 @@
 /* tslint:disable */
 /* eslint-disable */
 export type ExportHoldReviewV1 = {
-    lastUpdateDate?: string;
-    lastUpdatedBy?: string;
-    redHatAccountId?: string;
-    status?: string;
+  lastUpdateDate?: string;
+  lastUpdatedBy?: string;
+  redHatAccountId?: string;
+  status?: string;
 };
 

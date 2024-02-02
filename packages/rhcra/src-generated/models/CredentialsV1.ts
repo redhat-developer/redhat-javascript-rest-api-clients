@@ -3,7 +3,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export type CredentialsV1 = {
-    password?: string;
-    username?: string;
+  password?: string;
+  username?: string;
 };
 

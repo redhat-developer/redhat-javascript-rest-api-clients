@@ -4,7 +4,7 @@
 /* eslint-disable */
 import type { Result } from './Result';
 export type ServiceHealth = {
-    parameters?: any;
-    results?: Record<string, Result>;
+  parameters?: any;
+  results?: Record<string, Result>;
 };
 
